@@ -1,0 +1,71 @@
+# KiCad temporary files
+*.bak
+*.bck
+*-bak
+*-cache.lib
+*-rescue.lib
+*-save.pro
+*-save.kicad_pcb
+*-save.kicad_sch
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.sch-bak
+*~
+_autosave-*
+*.tmp
+*.000
+*.lck
+*.net
+
+# KiCad output files (optional - comment out if you want to commit them)
+# *.ps
+# *.pdf
+# *.zip
+
+# Backup files
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+*.egg-info/
+
+# Editor files
+.vscode/
+.idea/
+*.sublime-*
+
+# KiCad 3D cache
+*.3dshapes/
+*.pretty/
+
+# Build directories
+build/
+dist/
+
+# Gerber output (comment out if you want to version control)
+# gerbers/*.zip
+# gerbers/*.gbr
+# gerbers/*.drl
+# gerbers/*.gbrjob
+
+# Library cache
+sym-lib-table
+fp-lib-table
